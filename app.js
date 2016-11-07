@@ -30,7 +30,7 @@
         var itemsToBuy = [];
         var itemsBought = [];
 
-        itemsToBuy = InitiaiseBuyList();
+        itemsToBuy = InitialiseBuyList();
 
         service.getItemsToBuy = function () {
             return itemsToBuy;
@@ -46,7 +46,7 @@
         };
     };
 
-    function InitiaiseBuyList() {
+    function InitialiseBuyList() {
         return [{name: "apple", quantity: 5},
                 {name: "banana", quantity: 4},
                 {name: "orange", quantity: 3},
